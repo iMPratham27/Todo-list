@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f0f2f5, #d9e4f5);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+#main-container{
+    border: 1px solid black;
+    padding: 25px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#inputAndBtn{
+    margin-bottom: 15px;
+    
+}
+
+#input-text{
+    width: 250px;
+    height: 40px;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    outline: none;
+}
+
+#addBtn{
+    background-color: #3b82f6;
+    color: white;
+    font-weight: bold;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 2px solid #cbd5e1;
+    outline: none;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+li {
+  background-color: #f9fafb;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+li span {
+  flex: 1;
+  font-size: 16px;
+  word-break: break-word;
+}
+
+button {
+  padding: 6px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.DeleteBtn {
+  background-color: #ef4444;
+  color: white;
+}
+
+.DeleteBtn:hover {
+  background-color: #dc2626;
+}
+
+.EditBtn {
+  background-color: #fbbf24;
+  color: #1f2937;
+}
+
+.EditBtn:hover {
+  background-color: #f59e0b;
+}
+
+.SaveBtn {
+  background-color: #10b981;
+  color: white;
+}
+
+.SaveBtn:hover {
+  background-color: #059669;
+}
+
+.edit-input {
+  padding: 6px 10px;
+  font-size: 16px;
+  flex: 1;
+  border: 2px solid #93c5fd;
+  border-radius: 8px;
+  outline: none;
+}
